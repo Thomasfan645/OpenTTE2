@@ -17,7 +17,7 @@ stats:
   power: 700
   weight: 55 # Weight in metric tons (no units)
   speed: 64
-  num_vehicles: 2 # Locomotive + tender = 2
+  num_vehicles: 1
 
 cargo:
   cargo_classes: NONE
