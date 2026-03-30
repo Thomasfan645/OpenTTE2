@@ -1,14 +1,19 @@
-# Thomas the Tank Engine
+## This is a reference blueprint for defining a vehicle. Copy it to the suitable location under /src/vehicles and fill in fields as required
+## Most fields accept text, unless the value is obviously intended to be numeric
+## <??> indicates optional, <!!> indicates required.
+## <?*> or <!*> indicates a field that can be overridden/overrides other fields, with the ! or ? indicating whether the field is required *somewhere* in the definition
+## A|B|C indicates that the field must be one of the listed options
+## [] indicates an array, which may be combined with A|B etc. One or more values can be provided.
 
 info:
-  identifier: <??> # Unique indentifier for the class, used as a code reference
-  name: <??> # The name of the class, used in the UI
-  classification: TRAIN|TRAM|BUS|PLANE|SHIP
-  based_on: LB&SCR E2 class 0-6-0T # The real-world class this is based on
-  desc: Thomas the Tank Engine # A longer decscription text
+  identifier: <!!> # Unique indentifier for the class, used as a code reference
+  name: <!!> # The name of the class, used in the UI
+  classification: <!!> TRAIN|TRAM|BUS|PLANE|SHIP
+  based_on: <??> # The real-world class this is based on
+  desc: <??> # A longer decscription text
 
 stats:
-  type: LOCO|MU|WAGON|TRAM|VEHICLE # The primary subtype of vehicle. Use VEHICLE for non-rail vehicles
+  type: <!!> LOCO|MU|WAGON|TRAM|VEHICLE # The primary subtype of vehicle. Use VEHICLE for non-rail vehicles
   power_type: [STEAM|DIESEL|AC|DC|HYDROGEN] # Array of power types. Multiple types will be treated as bimode
   power: <??> # Power in HP (no units)
   length: <??> # Can be over-ridden per profile
@@ -18,7 +23,10 @@ stats:
   num_vehicles: 2 # The number of vehicles in unit of this class. Can be over-ridden per profile. Locomotive + tender = 2
 
 cargo:
-  type: none
+  cargo_classes: <??> [none|passengers] # Any NML CC_* cargo class with the CC_ removed, or "none"
+  allow_cargo: <??> # Optional list of additional cargos that can be carried in addition to the cargo class
+  disallow_cargo: <??> # Optional list of cargos that cannot be carried, even if they would normally be allowed by cargo_classes or allow_cargo
+
   # cargo_age_period: <??> # Should probably set this via some kind of usage combination
   # loading_speed: <??> # Should probably set this via some kind of usage combination
 
@@ -28,18 +36,18 @@ dates:
   life_expectancy: <??> # Life expectancy of an individual unit
 
 profiles:
-  - identifier: LOCO # 
+  - identifier: DEFAULT # An internal identifier used for matching with liveries
+    name: <??> # The friendly name of this profile, used in the UI
     size: 2 # The number of vehicles in this profile
-    name: 2-car Single Unit # The name of this profile, used in the UI
     types: [TRAIN|TRAM|BUS|PLANE|SHIP] # Only required if different to the classification, otherwise assumed to be the same
 
 liveries:
-  - name: Default # Used in UI, badges, filtering etc
-    profiles: [DEFAULT] # Which profiles this livery applies to. If blank, "DEFAULT" or not set, applies to all profiles
+  - name: Default # Friendly name of this livery. Used in UI, badges, filtering etc
+    profiles: [DEFAULT] # Which profile(s) this livery applies to. If blank, "DEFAULT" or not set, applies to all profiles
     sprite_override: [1, 3, 2] # Optionally override the sprite order, if sprites are ordered differently to the normal (front > rear > middle > middle pantograph) expectation
 
 # "default" to use a generic sound profile based on type, or specify a custom sound profile
-sounds: default
+sounds: <??> default
 
 special_tags:
   - number/<??> # Optional for trains with a known number (eg "number/1" for Thomas)
