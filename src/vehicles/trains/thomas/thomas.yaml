@@ -1,15 +1,9 @@
-## This is a reference blueprint for defining a vehicle. Copy it to the suitable location under /src/vehicles and fill in fields as required
-## Most fields accept text, unless the value is obviously intended to be numeric
-## <??> indicates optional, <!!> indicates required.
-## <?*> or <!*> indicates a field that can be overridden/overrides other fields, with the ! or ? indicating whether the field is required *somewhere* in the definition
-## A|B|C indicates that the field must be one of the listed options
-## [] indicates an array, which may be combined with A|B etc. One or more values can be provided.
-
 info:
   identifier: thomas # Unique indentifier for the class, used as a code reference
   name: Thomas the Tank Engine
   classification: Train
   based_on: LB&SCR E2 class 0-6-0T
+  operator: NWR
 
 stats:
   type: LOCO
