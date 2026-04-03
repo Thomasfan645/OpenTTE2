@@ -9,10 +9,10 @@ info:
 stats:
   type: LOCO
   power_type: DIESEL
-  power: <??>
-  tractive_effort: <??>
-  weight: <??>
-  speed: <??>
+  power: 350
+  tractive_effort: 155687
+  weight: 57.1
+  speed: 40
   num_vehicles: 1
 
 cargo:
