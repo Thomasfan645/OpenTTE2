@@ -4,14 +4,14 @@ info:
   classification: Train
   based_on: GWR 5700 class 0-6-0PT
   operator: NWR
-
+  additonal_info: They say he waddles.
 stats:
   type: LOCO
   power_type: STEAM
   power: 300
   tractive_effort: 100151.72
   weight: 53.2
-  speed: 60
+  speed: 57
   num_vehicles: 1
 
 cargo:
