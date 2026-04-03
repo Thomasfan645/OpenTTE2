@@ -8,7 +8,7 @@ info:
 stats:
   type: LOCO
   power_type: STEAM
-  power: 500
+  power: 1000
   tractive_effort: 121907.9612
   weight: 47
   speed: 65
