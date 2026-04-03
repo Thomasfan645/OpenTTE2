@@ -11,7 +11,7 @@ stats:
   power: 200
   tractive_effort: 49375.26
   weight: 37.5937
-  speed: 138
+  speed: 38
   num_vehicles: 1
 
 cargo:
