@@ -34,6 +34,16 @@ params:
       0: Service Speed
       1: Design Speed
 
+  - identifier: Longer_tank_engines
+    name_str: Longer Tank Engines
+    desc_str: switch between BRtrains Scaling or generic scaling
+    min_value: 0
+    max_value: 1
+    def_value: 1
+    names:
+      0: BRtrains Scale
+      1: Generic
+
   - identifier: param_resolution
     name_str: Use 2x resolution sprites?
     desc_str: Used to improve face details, the vehicles are still rendered at 1x.
