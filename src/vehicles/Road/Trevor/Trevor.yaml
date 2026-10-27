@@ -1,0 +1,32 @@
+info: # HEAVILY IMCOMPLETE!!!
+  identifier: Trevor # Unique indentifier for the class, used as a code reference
+  name: Trevor the Traction Engine
+
+stats:
+  vehicle_type: ROAD
+  train_type: MULTIPLE_UNIT
+  power_type: DIESEL
+  power: 200
+  tractive_effort: 20
+  weight: 3
+  speed: 20
+  num_vehicles: 1
+  capacity: 
+
+cargo: 
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: Green
+
+additional_text:
+  - Based on Garrett 4CD traction engine
+  - go anywhere, do anything
+
+special_tags:
+  - whyte/2-2-0WT # Optional for trains with a known Whyte notation (eg "whyte/0-6-0T" for Thomas)
+
+# All TTE2 vehicles remain available indefinitely.
+model_life: 0
