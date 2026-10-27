@@ -1,0 +1,29 @@
+info:
+  identifier: Harold # Unique indentifier for the class, used as a code reference
+  name: Harold the Helicopter
+
+stats:
+  vehicle_type: HELI
+  power_type: GASOLINE
+  power: 700
+  tractive_effort: #is this even needed
+  weight: 59.9
+  speed: 120
+  num_vehicles: 1
+
+cargo: none
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: white
+
+additional_text:
+  - Based on Westland Whrilwind
+
+special_tags:
+  - operator/Sodor Search and Rescue
+  - whyte/2-0-2GM
+
+  model_life: 0
