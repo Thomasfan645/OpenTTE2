@@ -1,0 +1,32 @@
+info:
+  identifier: Charlie # Unique indentifier for the class, used as a code reference
+  name: Charlie the Playful Engine
+
+stats:
+  vehicle_type: TRAIN
+  train_type: LOCOMOTIVE
+  power_type: STEAM
+  power: 350
+  tractive_effort: 94.8
+  weight: 59.9
+  speed: 60
+  num_vehicles: 1
+
+cargo: none
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: Purple
+
+additional_text:
+  - Based on Manning Wardale L class 0-6-0ST
+
+special_tags:
+  - operator/NWR # Optional for trains with a known number (eg "number/1" for Thomas)
+  - NWR/14
+  - whyte/0-6-0ST # Optional for trains with a known Whyte notation (eg "whyte/0-6-0T" for Thomas
+
+# All TTE2 vehicles remain available indefinitely.
+model_life: 0
