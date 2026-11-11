@@ -2011,3 +2011,120 @@ variants:
     str_walter_default_black_train_nested_name: '{SILVER}Tank Engine{BLACK} - {GOLD}Black'
     str_walter_default_black_train_additional_text: Based on war department austerity
       0-6-0T
+- id: 1077
+  vehicle: henrietta
+  profile: __part_default_tram_pos1
+  livery: wood
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 32
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1077_hidden_part_henrietta_default_wood_tram_pos1.gnml
+  identifier: hidden_part_henrietta_default_wood_tram_pos1
+  name_string: str_hidden_part_henrietta_default_wood_tram_pos1_name
+  strings:
+    str_hidden_part_henrietta_default_wood_tram_pos1_name: Henrietta - {SILVER}coach{BLACK}
+      - {GOLD}Wood
+    str_hidden_part_henrietta_default_wood_tram_pos1_additional_text: Based on GER
+      Wisbech and Upwell Tramway 4-wheel coach
+- id: 1080
+  vehicle: annie_clarabel
+  profile: __part_default_tram_pos1
+  livery: orange
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1080_hidden_part_annie_clarabel_default_orange_tram_pos1.gnml
+  identifier: hidden_part_annie_clarabel_default_orange_tram_pos1
+  name_string: str_hidden_part_annie_clarabel_default_orange_tram_pos1_name
+  strings:
+    str_hidden_part_annie_clarabel_default_orange_tram_pos1_name: Annie & Clarabel
+      - {SILVER}coach{BLACK} - {GOLD}Orange
+    str_hidden_part_annie_clarabel_default_orange_tram_pos1_additional_text: Based
+      on LBSC Stroudley Coaches
+- id: 1081
+  vehicle: annie_clarabel
+  profile: __part_default_tram_pos2
+  livery: orange
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 30
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1081_hidden_part_annie_clarabel_default_orange_tram_pos2.gnml
+  identifier: hidden_part_annie_clarabel_default_orange_tram_pos2
+  name_string: str_hidden_part_annie_clarabel_default_orange_tram_pos2_name
+  strings:
+    str_hidden_part_annie_clarabel_default_orange_tram_pos2_name: Annie & Clarabel
+      - {SILVER}coach{BLACK} - {GOLD}Orange
+    str_hidden_part_annie_clarabel_default_orange_tram_pos2_additional_text: Based
+      on LBSC Stroudley Coaches
+- id: 1082
+  vehicle: toby
+  profile: with_henrietta
+  livery: brown
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 2
+    lengths:
+    - 4
+  archive: generated_variants/1082_toby_with_henrietta_brown_tram.gnml
+  identifier: toby_with_henrietta_brown_tram
+  name_string: str_toby_with_henrietta_brown_tram_name
+  strings:
+    str_toby_with_henrietta_brown_tram_name: Toby the Tram Engine - {SILVER}Toby +
+      Henrietta{BLACK} - {GOLD}Brown
+    str_toby_with_henrietta_brown_tram_group_name: Toby the Tram Engine - {SILVER}Toby
+      + Henrietta{BLACK} - {GOLD}Brown
+    str_toby_with_henrietta_brown_tram_nested_name: '{SILVER}Toby + Henrietta{BLACK}
+      - {GOLD}Brown'
+    str_toby_with_henrietta_brown_tram_additional_text: Based on LNER J70 Class 0-6-0T
+- id: 1083
+  vehicle: toby
+  profile: with_annie_clarabel
+  livery: brown
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 3
+    lengths:
+    - 4
+  archive: generated_variants/1083_toby_with_annie_clarabel_brown_tram.gnml
+  identifier: toby_with_annie_clarabel_brown_tram
+  name_string: str_toby_with_annie_clarabel_brown_tram_name
+  strings:
+    str_toby_with_annie_clarabel_brown_tram_name: Toby the Tram Engine - {SILVER}Toby
+      + Annie & Clarabel{BLACK} - {GOLD}Brown
+    str_toby_with_annie_clarabel_brown_tram_group_name: Toby the Tram Engine - {SILVER}Toby
+      + Annie & Clarabel{BLACK} - {GOLD}Brown
+    str_toby_with_annie_clarabel_brown_tram_nested_name: '{SILVER}Toby + Annie & Clarabel{BLACK}
+      - {GOLD}Brown'
+    str_toby_with_annie_clarabel_brown_tram_additional_text: Based on LNER J70 Class
+      0-6-0T
