@@ -16,8 +16,8 @@ dates:
 liveries:
   - name: Orange
   - name: Orange Brake
-  - name: Green and Cream
   - name: Green and Cream Brake # these are the old coaches
+  - name: Green and Cream 
   - name: Red
   - name: Red Brake
 

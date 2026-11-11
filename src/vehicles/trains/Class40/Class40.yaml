@@ -1,0 +1,33 @@
+info:
+  identifier: Class40 # Unique indentifier for the class, used as a code reference
+  name: class 40 the large diesel
+  
+stats:
+  vehicle_type: TRAIN
+  train_type: LOCOMOTIVE
+  power_type: DIESEL
+  power: 2000
+  tractive_effort: 231
+  weight: 133
+  speed: 90
+  num_vehicles: 1
+
+cargo: none
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: Green
+
+additional_text:
+  - Based on English Electric class 40
+  - Oh no! Help! Crikey! Not me!
+
+special_tags:
+  - operator/BR
+  - BR/D261
+  - Commonwealth/1Co-Co1 # Optional for trains with a known Whyte notation (eg "whyte/0-6-0T" for Thomas
+
+# All TTE2 vehicles remain available indefinitely.
+model_life: 0

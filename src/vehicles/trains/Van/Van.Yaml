@@ -8,7 +8,7 @@ stats:
   weight: 11
   capacity: 20
 
-cargo: [CC_BULK, CC_NON_POURABLE, CC_PIECE_GOODS]
+cargo: [ CC_COVERED, CC_HAZARDOUS, CC_PIECE_GOODS]
 dates:
   introduction_date: 1
 profiles:
