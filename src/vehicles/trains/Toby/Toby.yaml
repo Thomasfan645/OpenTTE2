@@ -19,6 +19,22 @@ dates:
 profiles:
   - identifier: DEFAULT # An internal identifier used for matching with liveries
     types: [TRAM, TRAIN]
+  - identifier: WITH_HENRIETTA
+    name: Toby + Henrietta
+    formation: Toby + Henrietta
+    sprite_group: DEFAULT
+    types: [TRAM]
+    articulated_parts:
+      - vehicle: henrietta
+        livery: Wood
+  - identifier: WITH_ANNIE_CLARABEL
+    name: Toby + Annie & Clarabel
+    formation: Toby + Annie & Clarabel
+    sprite_group: DEFAULT
+    types: [TRAM]
+    articulated_parts:
+      - vehicle: annie_clarabel
+        livery: Orange
 
 liveries:
   - name: Brown
