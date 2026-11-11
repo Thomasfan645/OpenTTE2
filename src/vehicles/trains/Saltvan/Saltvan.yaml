@@ -8,7 +8,7 @@ stats:
   weight: 10
   capacity: 30
 
-cargo: [CC_NEOBULK]
+cargo: [NEO_BULK]
 dates:
   introduction_date: 1
 
