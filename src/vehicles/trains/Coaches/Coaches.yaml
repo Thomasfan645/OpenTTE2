@@ -15,10 +15,15 @@ dates:
 
 liveries:
   - name: Red and white
+  - name: Red and white Brake
   - name: Green and white
+  - name: Green and white Brake
   - name: Orange
+  - name: Orange Brake
   - name: Red and Cream
+  - name: Red and Cream Brake
   - name: Green and Cream 
+  - name: Green and Cream Brake
 
 additional_text:
   - Based on LMS suburban coaches, or SR maunsell Coaches
