@@ -1,0 +1,32 @@
+info:
+  identifier: Harvey # Unique indentifier for the class, used as a code reference
+  name: Harvey the Crane Engine
+
+stats:
+  vehicle_type: TRAIN
+  train_type: LOCOMOTIVE
+  power_type: STEAM
+  power: 200
+  tractive_effort: 49.4
+  weight: 37.5937
+  speed: 38
+  num_vehicles: 1
+
+cargo: none
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: Maroon
+
+additional_text:
+  - Based on Dubs Crane Engine No. 4101 0-4-0T
+
+special_tags:
+  - operator/NWR
+#  - NWR/6 # Optional for trains with a known number (eg "number/1" for Thomas)
+  - whyte/0-4-0T # Optional for trains with a known Whyte notation (eg "whyte/0-6-0T" for Thomas)
+
+# All TTE2 vehicles remain available indefinitely.
+model_life: 0
