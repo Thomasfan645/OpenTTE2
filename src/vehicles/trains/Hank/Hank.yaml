@@ -1,0 +1,32 @@
+info:
+  identifier: Hank the American Engine
+  name: Hank the American Engine
+
+stats:
+  vehicle_type: TRAIN
+  train_type: LOCOMOTIVE
+  power_type: STEAM
+  power: 3286
+  tractive_effort: 132.7
+  weight:  102.31
+  speed: 87
+  num_vehicles: 2
+
+cargo: none
+dates:
+  introduction_date: 1
+
+
+liveries:
+  - name: Navy
+
+additional_text:
+  - Based on PRR K4 4-6-2
+
+special_tags:
+  - operator/NWR
+ # - NWR/4 # Optional for trains with a known number (eg "number/1" for Thomas)
+  - whyte/4-6-2 # Optional for trains with a known Whyte notation (eg "whyte/0-6-0T" for Thomas)
+
+# All TTE2 vehicles remain available indefinitely.
+model_life: 0
